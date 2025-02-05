@@ -60,3 +60,42 @@ Déroulement du projet
 
 🔹 Étape 6 (optionnelle) : Mode multijoueur en ligne
 
+🔌 Technologies recommandées
+
+✅ Python (serveur + client)
+
+✅ WebSockets avec FastAPI ou Flask-SocketIO
+
+✅ Pygame pour l'affichage
+
+
+🏗 Architecture du projet
+
+Serveur (server.py)
+
+Gère la connexion des joueurs
+
+Synchronise les états du jeu (position des pièces, score, etc.)
+
+Envoie les actions de chaque joueur à l’autre
+
+Client (client.py)
+
+Envoie les actions du joueur au serveur
+
+Reçoit les mises à jour de l’état du jeu
+
+Affiche le jeu avec Pygame
+
+🔄 Déroulement du jeu
+
+Les joueurs se connectent au serveur
+
+Chaque joueur joue sur son propre écran
+
+Lorsqu'un joueur supprime des lignes, l’autre reçoit un handicap (lignes supplémentaires)
+
+Le jeu continue jusqu'à ce qu’un joueur perde
+
+💡 On commence par quoi ? Initialiser le serveur ou créer un client test ? 😊
+
