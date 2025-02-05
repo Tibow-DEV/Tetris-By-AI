@@ -2,8 +2,10 @@
 Projet tetris en utilisant exclusivement de l'IA
 📄 Cahier des charges – Tetris en Python
 Présentation du projet
+
 1.1 Objectifs
 Développer un jeu de Tetris en Python, jouable en solo avec une interface simple et fluide. Le projet pourra évoluer pour inclure un mode multijoueur en ligne et un système de scores enregistrés.
+
 
 1.2 Fonctionnalités principales
 ✅ Jeu de Tetris classique avec chute des pièces et rotation
@@ -12,6 +14,7 @@ Développer un jeu de Tetris en Python, jouable en solo avec une interface simpl
 ✅ Gestion des collisions et suppression des lignes
 ✅ Sauvegarde du score dans un fichier ou base de données
 ✅ Mode multijoueur en ligne (optionnel, à ajouter plus tard)
+
 
 Technologies utilisées
 Langage : Python 3
